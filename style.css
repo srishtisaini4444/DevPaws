@@ -53,9 +53,7 @@ body::before{
     margin: auto;
 }
 
-/* ===========================
-   NAVBAR
-=========================== */
+
 
 .navbar{
     position: sticky;
@@ -116,9 +114,7 @@ body::before{
 
     box-shadow:0 12px 30px rgba(124,58,237,0.4);
 }
-/* ===========================
-   HERO SECTION
-=========================== */
+
 
 #hero{
     padding: 120px 0;
@@ -190,9 +186,7 @@ body::before{
     font-size: 28px;
 }
 
-/* ===========================
-   FEATURES SECTION
-=========================== */
+
 
 #features{
     padding: 120px 0;
@@ -246,6 +240,84 @@ body::before{
 }
 
 .feature-card:hover{
+    transform: translateY(-10px);
+
+    border-color: #7C3AED;
+
+    box-shadow: 0 15px 40px rgba(124,58,237,0.25);
+}
+
+
+
+#how-it-works{
+    padding: 120px 0;
+}
+
+.steps{
+    display: flex;
+
+    justify-content: space-between;
+
+    gap: 40px;
+
+    margin-top: 70px;
+}
+
+.step{
+    background-color: #1E293B;
+
+    padding: 40px 30px;
+
+    border-radius: 20px;
+
+    text-align: center;
+
+    flex: 1;
+
+    transition: 0.3s ease;
+
+    border: 1px solid transparent;
+}
+
+.step-number{
+    width: 70px;
+
+    height: 70px;
+
+    background-color: #7C3AED;
+
+    color: white;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 28px;
+
+    font-weight: 700;
+
+    margin: 0 auto 25px;
+}
+
+.step h3{
+    font-size: 24px;
+
+    margin-bottom: 15px;
+
+    color: #FFFFFF;
+}
+
+.step p{
+    color: #CBD5E1;
+
+    line-height: 1.8;
+}
+
+.step:hover{
     transform: translateY(-10px);
 
     border-color: #7C3AED;
